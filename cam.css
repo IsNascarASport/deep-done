@@ -1,0 +1,48 @@
+#player:focus {
+    outline: none !important;
+    border-color: limegreen;
+    box-shadow: 0 0 10px limegreen;
+}
+
+/* #bg-button {
+    position: absolute;
+    top: 35%;
+    left: 40%
+} */
+
+body {
+    background-color: #7f7f7f;
+    font-family: proxima_nova, "Helvetica Neue", Helvetica,Arial, sans-serif
+}
+
+.spotify {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 100px;
+}
+
+#prediction {
+
+    color: white;
+    font-size: large;
+}
+
+.video-player {
+    /* position: absolute;
+    top: 10%;
+    left: 34%; */
+}
+
+#c {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+#countdown {
+    color: white;
+    font-size: large;
+}

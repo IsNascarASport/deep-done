@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>In Too Deep</title>
+
+    <!-- Import TensorFlow.js -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script> -->
+    <!-- Import tfjs-vis -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script> -->
+
+    <!-- Import the data file -->
+    <!-- <script src="data.js" type="module"></script> -->
+
+    <!-- Import the model file -->
+    <!-- <script src="model.js" type="module"></script> -->
+  
+    <!-- Import the main script file -->
+    <!-- <script src="main.js" type="module"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.1"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="cam.css">
+
+
+  </head>
+  <body>
+    <script src="cam.js"></script>
+    <canvas id="c" width="2000" height="2000"></canvas>
+    <img src="./spotify-logo.png" alt="" class="spotify">
+    
+    <div class="video-player" align="center">
+      <p id="prediction"></p>
+      <video id="player" controls></video>
+      <div class="player-buttons" align="center">
+        <button id="bg-button" class="btn btn-success" onclick="captureBackground()">Capture Background</button>
+        <button id="gesture-button" class="btn btn-success" onclick="capture()">Capture Gesture</button>
+      </div>
+      <p id="countdown" align="center"></p>
+      
+      
+    </div>
+    
+    
+
+  </body>
+</html>
